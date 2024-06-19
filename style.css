@@ -1,0 +1,77 @@
+body {
+    font-family: Montserrat, sans-serif !important;
+    font-size: 1.125rem;
+    letter-spacing: 4px;
+
+    text-transform: uppercase;
+    box-sizing: border-box;
+
+    background-color: #f9fafa;
+    margin: 0;
+}
+
+.bg {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -3;
+}
+
+img.welcome {
+    width: 28vw;
+    height: 80vh;
+    position: absolute;
+    top: 15vh;
+    left: 20vw;
+    z-index: -2;
+    border-radius: 255px;
+    border: 3px solid #ffc002;
+}
+
+.welcome-wrap {
+    position: absolute;
+    top: 30vh;
+    left: 40vw;
+}
+
+.welcome-wrap h1 {
+    text-transform: none;
+    font-size: 5.25rem;
+    font-family: "Indie Flower", cursive;
+    font-weight: 800;
+    color: #ad0000;
+    margin-bottom: 1vh;
+}
+
+.welcome-wrap h2 {
+    text-transform: none;
+    font-size: 2.5rem;
+    padding-left: 2vw;
+    color: #002c5d;
+    font-family: "Indie Flower", cursive;
+}
+
+@media only screen and (max-width: 600px) {
+    img.welcome {
+        width: 65vw;
+        height: 50vh;
+        top: 15vh;
+        left: 15vw;
+    }
+
+    .welcome-wrap {
+        position: absolute;
+        top: 15vh;
+        left: 56vw;
+    }
+
+    .welcome-wrap h1 {
+        font-size: 2.25rem;
+    }
+
+    .welcome-wrap h2 {
+        font-size: 1rem;
+    }
+}

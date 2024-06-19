@@ -1,0 +1,21 @@
+{
+    "cocktails": [
+        {
+            "name": "Old Fashioned",
+            "ingredients": [
+                "1 Rum",
+                "3/4 sok limonka"
+            ],
+            "img": "raw_data/old fashioned.webp"
+        },
+        {
+            "name": "Negroni",
+            "ingredients": [
+                "1 Gin",
+                "1 likier gorzki",
+                "1 wermut"
+            ],
+            "img": "raw_data/cuba libre.webp"
+        }
+    ]
+}
