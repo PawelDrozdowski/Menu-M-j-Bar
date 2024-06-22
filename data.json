@@ -9,7 +9,7 @@
                 "2 woda gaz.",
                 "mięta"
             ],
-            "img": "raw_data/old fashioned.webp"
+            "img": "raw_data/mojito.webp"
         },
         {
             "name": "Mojito Kraken",
@@ -22,7 +22,7 @@
                 "2 woda gaz.",
                 "mięta"
             ],
-            "img": "raw_data/old fashioned.webp"
+            "img": "raw_data/mojito kraken.jpg"
         },
         {
             "name": "Klonowy Old Fashioned",
@@ -31,16 +31,18 @@
                 "1/2 syrop klonowy",
                 "2 angostura"
             ],
-            "img": "raw_data/old fashioned.webp"
+            "img": "raw_data/maple old fashioned.png"
         },
         {
-            "name": "Negroni",
+            "name": "Old Cuban",
             "ingredients": [
-                "1 gin",
-                "1 likier gorzki",
-                "1 wermut"
+                "4/3 rum starzony",
+                "2/3 sok limonka",
+                "1/3 syrop cukrowy",
+                "2 wino musujące",
+                "2 angostura"
             ],
-            "img": "raw_data/cuba libre.webp"
+            "img": "raw_data/old cuban.jpg"
         },
         {
             "name": "Collins Truskawka",
@@ -50,17 +52,16 @@
                 "1 sok cytryna",
                 "2 woda gaz."
             ],
-            "img": "raw_data/old fashioned.webp"
+            "img": "raw_data/strawberry collins.webp"
         },
         {
-            "name": "Krwawy Collins",
+            "name": "Negroni",
             "ingredients": [
-                "1 gin truskawka",
-                "1 grenadyna",
-                "1 sok limonkowy",
-                "2 woda gaz."
+                "1 gin",
+                "1 likier gorzki",
+                "1 wermut"
             ],
-            "img": "raw_data/old fashioned.webp"
+            "img": "raw_data/negroni.jpg"
         },
         {
             "name": "Rum punch",
@@ -69,7 +70,7 @@
                 "1 sok ananas",
                 "1 sok pomarańcza"
             ],
-            "img": "raw_data/old fashioned.webp"
+            "img": "raw_data/rum punch.jpg"
         },
         {
             "name": "Bacardi Special",
@@ -80,7 +81,7 @@
                 "1/4 grenadyna",
                 "1/4 syrop cukrowy"
             ],
-            "img": "raw_data/old fashioned.webp"
+            "img": "raw_data/bacardi special.jpg"
         },
         {
             "name": "Bronx Gin",
@@ -90,7 +91,7 @@
                 "3/4 sok pomarańcza",
                 "1 angostura"
             ],
-            "img": "raw_data/old fashioned.webp"
+            "img": "raw_data/bronx.jpg"
         },
         {
             "name": "Canchanchara",
@@ -99,7 +100,7 @@
                 "1/2 sok limonka",
                 "2/3 syrop miodowy"
             ],
-            "img": "raw_data/old fashioned.webp"
+            "img": "raw_data/canchanchara.jpg"
         },
         {
             "name": "Carta Switchel",
@@ -110,7 +111,7 @@
                 "1/6 likier ziołowy",
                 "1/12 ocet jabłkowy"
             ],
-            "img": "raw_data/old fashioned.webp"
+            "img": "raw_data/swizzled-Carta-Switchel.jpg"
         },
         {
             "name": "Daiquiri miodowe",
@@ -120,7 +121,7 @@
                 "1/2 sok pomarańcza",
                 "2/3 syrop miodowy"
             ],
-            "img": "raw_data/old fashioned.webp"
+            "img": "raw_data/daiquiri honey.jpg"
         },
         {
             "name": "Gin bazyliowy",
@@ -130,7 +131,7 @@
                 "1/3 syrop cukrowy",
                 "bazylia"
             ],
-            "img": "raw_data/old fashioned.webp"
+            "img": "raw_data/gin basil.jpg"
         },
         {
             "name": "Jack Dempsey",
@@ -140,7 +141,7 @@
                 "1/2 sok cytryna",
                 "1/3 syrop cukrowy"
             ],
-            "img": "raw_data/old fashioned.webp"
+            "img": "raw_data/Jack Dempsey.jpg"
         },
         {
             "name": "Krew Nelsona",
@@ -152,7 +153,7 @@
                 "1/2 syrop cukrowy",
                 "2 angostura"
             ],
-            "img": "raw_data/old fashioned.webp"
+            "img": "raw_data/nelson's blood.jpg"
         },
         {
             "name": "Painkiller",
@@ -163,10 +164,10 @@
                 "1/2 mleczko kokosowe",
                 "4 angostura"
             ],
-            "img": "raw_data/old fashioned.webp"
+            "img": "raw_data/painkiller.jpg"
         },
         {
-            "name": "Gin Czerwony Lew",
+            "name": "Gin Lew",
             "ingredients": [
                 "3/2 gin",
                 "3/4 likier pomarańczowy",
@@ -175,7 +176,26 @@
                 "1/4 grenadyna",
                 "1 angostura"
             ],
-            "img": "raw_data/old fashioned.webp"
+            "img": "raw_data/red lion.webp"
+        },
+        {
+            "name": "Trader Vic's Grog",
+            "ingredients": [
+                "2 rum ciemny",
+                "1 sok cytryna",
+                "1 sok ananas",
+                "1 syrop marakuja",
+                "2 angostura"
+            ],
+            "img": "raw_data/tradervics.jpg"
+        },
+        {
+            "name": "Lodowy szef",
+            "ingredients": [
+                "4 rum 54%",
+                "kostki lodu"
+            ],
+            "img": "raw_data/cuba libre.webp"
         }
     ]
 }
