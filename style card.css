@@ -11,15 +11,15 @@
 }
 
 .menu-container-bg {
-    width: 100%;
+    width: 100vw;
     height: 100%;
     position: absolute;
+    background-size: contain;
     top: -3px;
     left: 0;
     z-index: -1;
     background: url(raw_data/bg2.png);
     background-repeat: repeat-y;
-    background-size: cover;
     filter: blur(3px);
     -webkit-filter: blur(3px);
 }
@@ -64,12 +64,11 @@
 .card-header>ul {
     padding: 0;
     font-size: 1.2rem;
-    margin-top: 0;
+    margin-top: 10px;
     width: 47%;
     font-family: "Indie Flower";
     letter-spacing: 5px;
     font-weight: 400;
-    margin: 0;
     text-transform: none;
 }
 
@@ -88,6 +87,7 @@ h5 {
     height: 1.5vw;
     margin: 5px auto 0 0;
     background-color: #002c5d;
+    border-radius: 2vw 2vw 0 0;
 }
 
 .card>img {
@@ -98,7 +98,7 @@ h5 {
 
 @media only screen and (max-width: 600px) {
     .card {
-        width: 85vw;
+        width: 78vw;
     }
 
     .card>img {
@@ -111,7 +111,9 @@ h5 {
     }
 
     .card-header>ul {
-        font-size: 3.5vw;
+        font-size: 3.4vw;
+        line-height: 1.1;
+        width: 52%;
     }
 
     h5 {
